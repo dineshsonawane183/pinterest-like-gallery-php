@@ -4,7 +4,7 @@ $layoutString = "";
 $layoutScript = "";
 
 function make_curl_call() {
-    $url = "https://cdn.pinkvilla.com/feed/fashion-section.json";
+    $url = "https://content.xynie.com/feed/fashion-section.json";
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
